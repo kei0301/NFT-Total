@@ -1,0 +1,861 @@
+#SteakStake #Section1 {
+  margin-bottom: 3.7rem;
+}
+
+
+#SteakStake #Section1 .section_body .section_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0.9rem;
+  background: var(--text-white);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box.wallet_balance_flex {
+  background: transparent;
+  padding-bottom: 0rem;
+  padding: 0px;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box:first-child {
+  margin-right: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box:first-child {
+    margin-right: 0rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box {
+  width: 14.3rem;
+  height: 11.6rem;
+  border-radius: 1rem;
+  padding: 0.9rem;
+  margin-right: 1.4rem;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-4.51%, rgba(250, 183, 116, 0.1)), color-stop(107.64%, rgba(225, 152, 88, 0.1)));
+  background: linear-gradient(90deg, rgba(250, 183, 116, 0.1) -4.51%, rgba(225, 152, 88, 0.1) 107.64%);
+  -webkit-box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+          box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .meat_box {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .meat_box {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 1.4rem;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box > * {
+  display: block;
+  color: var(--text-900);
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box strong {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box span {
+  font-size: 0.9rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box svg {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .meat_box .img_frame {
+  position: absolute;
+  bottom: 1.1rem;
+  right: 1.2rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content strong {
+  display: block;
+  font-weight: 700;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li {
+  color: var(--text-900);
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li:first-child {
+  font-size: 0.873rem;
+  margin-bottom: 1rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li:first-child strong {
+  font-size: 1.3rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li:nth-of-type(2) {
+  font-size: 0.873rem;
+  margin-bottom: 0.4rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li:nth-of-type(2) strong {
+  font-size: 0.9rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .flex_box_list_content li:nth-of-type(3) {
+  font-size: 0.567rem;
+  margin-bottom: 1.5rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list {
+  color: var(--text-900);
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li {
+  background: var(--text-white);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem 0.5rem 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li {
+    margin-bottom: 0px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li {
+    width: 100%;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li:last-child {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li:last-child {
+    margin-left: 1.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li:last-child {
+    margin-left: 0px;
+    margin-top: 1.4rem;
+  }
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .content_box {
+  margin-left: 0.816rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .content_box h3 {
+  font-size: 0.873rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .content_box strong {
+  font-weight: 1.3rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .content_box span {
+  font-size: 0.9rem;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .btn_box {
+  margin-left: auto;
+}
+
+#SteakStake #Section1 .section_body .section_flex .flex_box .wallet_balance_list li .btn_box button {
+  font-size: 0.873rem;
+  background: var(--text-13);
+  -webkit-box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+          box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+#SteakStake #Section2 {
+  margin-bottom: 2.6rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper {
+  background: var(--text-white);
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  #SteakStake #Section2 .section_box_wrapper .section_body_box_1 {
+    width: 100%;
+  }
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 > img {
+  min-width: 6.81rem;
+  height: 3.8rem;
+  margin-right: 1.6rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 .section_content_list li:nth-of-type(1) {
+  font-size: 1.4rem;
+  color: var(--text-900);
+  font-weight: 900;
+  margin-bottom: 0.7rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 .section_content_list li:nth-of-type(2) {
+  font-size: 0.873rem;
+  color: var(--text-900);
+  margin-bottom: 0.8rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 .section_content_list li:nth-of-type(3) {
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-1.45%, #fab573), color-stop(29.19%, #aa6c40));
+  background: linear-gradient(90deg, #fab573 -1.45%, #aa6c40 29.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 .section_content_list li:nth-of-type(4) {
+  color: var(--text-900);
+  font-size: 0.9rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_1 .section_content_list li:nth-of-type(4) strong {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 {
+  min-width: 30rem;
+  margin-left: auto;
+  padding-left: 1.9rem;
+  border-left: 1px solid #e8e5ea;
+}
+
+@media (max-width: 768px) {
+  #SteakStake #Section2 .section_box_wrapper .section_body_box_2 {
+    border-left: none;
+    margin-left: 0px;
+    margin-top: 1.4rem;
+    min-width: 100%;
+    border-top: 1px solid #e8e5ea;
+    padding-top: 1.4rem;
+  }
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li {
+  color: var(--text-900);
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(1) {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(1) span {
+  display: block;
+  font-size: 0.9rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(2) {
+  font-size: 0.9rem;
+  margin-bottom: 1.6rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(3) span {
+  font-size: 1rem;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(3) strong {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(4).dropdown_btn_list_wrapper .dropdown_btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid var(--text-74);
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(201, 148, 12, 0.1));
+          filter: drop-shadow(0px 4px 10px rgba(201, 148, 12, 0.1));
+  border-radius: 5px;
+  font-size: 1rem;
+  color: var(--text-74);
+  background: transparent;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  padding: 0.4rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(4).dropdown_btn_list_wrapper .dropdown_btn:hover {
+  background: var(--text-74);
+  color: var(--text-white);
+}
+
+#SteakStake #Section2 .section_box_wrapper .section_body_box_2 .section_content_list li:nth-of-type(4).dropdown_btn_list_wrapper .dropdown_btn:hover path {
+  fill: var(--text-white);
+}
+
+#SteakStake #Section3 .section_title {
+  text-align: center;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-right: 1.2rem;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox input {
+  display: none;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox [for="stakedCheckbox"] {
+  position: relative;
+  color: var(--text-23);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox [for="stakedCheckbox"]::before {
+  content: "";
+  position: absolute;
+  background: var(--text-900);
+  width: 2.6rem;
+  height: 1.4rem;
+  border-radius: 5.9rem;
+  right: calc(100% + 4px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox [for="stakedCheckbox"]::after {
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  position: absolute;
+  background: var(--text-white);
+  border-radius: 50%;
+  right: calc(100% + 18px);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .stakeBox input:checked ~ label::after {
+  right: calc(100% + 6px);
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .tabBox {
+  background: var(--text-white);
+  border-radius: 5.9rem;
+  border: 0.8px solid #fab674;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .tabBox button {
+  color: var(--text-38);
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: transparent;
+  margin: 0px;
+  margin-right: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .tabBox button:last-child {
+  margin-right: 0px;
+}
+
+#SteakStake #Section3 .section_title .section_tab_control .tabBox button.active_btn {
+  background: var(--text-74);
+  color: var(--text-white);
+  padding: 4px;
+  display: inline-block;
+  border-radius: 5.9rem;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list .token_empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-900);
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li {
+  border-radius: 1rem;
+  background: var(--text-white);
+  padding: 1.3rem 2.1rem;
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li:not(.token_empty) {
+  cursor: pointer;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li::before {
+  content: "";
+  position: absolute;
+  right: calc(100% + 15px);
+  width: 7.5rem;
+  top: 0px;
+  height: 5.6rem;
+  /*background: url("../../images/img_token_side.png") center/contain no-repeat;*/
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .currency {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  color: var(--text-900);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .currency {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .app_content {
+  font-size: 1rem;
+  color: var(--text-900);
+  display: none;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .app_content {
+    display: block;
+  }
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .app_content strong {
+  display: block;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(1) .rank {
+  font-size: 0.9rem;
+  color: var(--text-white);
+  background: -webkit-gradient(linear, left top, right top, color-stop(-4.51%, #fab674), color-stop(107.64%, #9e6138));
+  background: linear-gradient(90deg, #fab674 -4.51%, #9e6138 107.64%);
+  -webkit-box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+          box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+  border-radius: 17px;
+  padding: 2px 9px;
+  display: inline-block;
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(2), #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(3), #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(4) {
+  font-size: 0.717rem;
+  color: var(--text-900);
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(2) strong, #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(3) strong, #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(4) strong {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(2), #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(3), #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(4) {
+    display: none;
+  }
+}
+
+#SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(5) button.btn_dropdown_details {
+  color: var(--text-74);
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #SteakStake #Section3 .section_body .section_body_content .lp_token_list > li .flex_list_box .list_box:nth-of-type(5) button.btn_dropdown_details span {
+    display: none;
+  }
+}
+
+#SteakStake .dropdown_content_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(184, 184, 184, 0.5);
+}
+
+@media (max-width: 768px) {
+  #SteakStake .dropdown_content_box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#SteakStake .dropdown_content_box .content_box {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: var(--text-900);
+}
+
+@media (max-width: 768px) {
+  #SteakStake .dropdown_content_box .content_box:nth-of-type(1) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 100%;
+  }
+  #SteakStake .dropdown_content_box .content_box:nth-of-type(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 640px) {
+  #SteakStake .dropdown_content_box .content_box:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #SteakStake .dropdown_content_box .content_box:nth-of-type(3) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 640px) {
+  #SteakStake .dropdown_content_box .content_box:nth-of-type(3) {
+    width: 100%;
+  }
+}
+
+#SteakStake .dropdown_content_box .content_box li {
+  margin-bottom: 0 !important;
+  padding: 0px !important;
+}
+
+#SteakStake .dropdown_content_box .content_box .sm_list {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  #SteakStake .dropdown_content_box .content_box .sm_list {
+    display: block;
+    font-size: 1rem;
+  }
+  #SteakStake .dropdown_content_box .content_box .sm_list strong {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#SteakStake .dropdown_content_box .content_box strong {
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+#SteakStake .dropdown_content_box .content_box strong.mb_sizer {
+  margin-bottom: 1rem;
+}
+
+#SteakStake .dropdown_content_box .content_box strong.mb_sizer2 {
+  margin-bottom: 2rem;
+}
+
+#SteakStake .dropdown_content_box .content_box a,
+#SteakStake .dropdown_content_box .content_box span {
+  font-size: 0.9rem;
+  color: var(--text-900);
+  text-decoration: none;
+}
+
+#SteakStake .dropdown_content_box .content_box .card_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid var(--text-b8);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+  #SteakStake .dropdown_content_box .content_box .card_box {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 640px) {
+  #SteakStake .dropdown_content_box .content_box .card_box {
+    margin-right: 0px;
+  }
+}
+
+#SteakStake .dropdown_content_box .content_box .card_box.mx_0 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#SteakStake .dropdown_content_box .content_box .card_box .btn_harvest_inactive {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: var(--text-b8);
+  color: var(--text-white);
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: not-allowed;
+}
+
+#SteakStake .dropdown_content_box .content_box .card_box .btn_harvest {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: linear-gradient(90deg, #fab674 -4.51%, #9e6138 107.64%);
+  color: var(--text-white);
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+.btn_max {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: linear-gradient(90deg, #fab674 -4.51%, #fc6500 107.64%);
+  color: var(--text-white);
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+/*# sourceMappingURL=SteakStake.css.map */

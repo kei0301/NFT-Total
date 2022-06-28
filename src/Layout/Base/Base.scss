@@ -1,0 +1,70 @@
+#Base {
+  position: relative;
+  .Base_design_wrapper {
+    pointer-events: none;
+    user-select: none;
+    .design_left {
+      z-index: -1;
+      position: absolute;
+      top: 7.4rem;
+    }
+    .design_head {
+      z-index: -1;
+
+      position: absolute;
+      right: 8rem;
+      top: 40%;
+    }
+    .floating_btn_design {
+      position: fixed;
+      right: 4.9rem;
+      bottom: 2.2rem;
+      display: block;
+      @media (max-width: 1024px) {
+        display: none;
+      }
+      .floating_btn {
+        border: none;
+        outline: none;
+        background: transparent;
+        width: 6.4rem;
+        height: 6.4rem;
+        display: block;
+        cursor: pointer;
+        pointer-events: visible;
+        padding: 0;
+        margin: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          object-fit: contain;
+        }
+      }
+    }
+    .footer_fixed_content {
+      position: fixed;
+      bottom: 1.9rem;
+      left: 4.7rem;
+      font-size: 1.4rem;
+      font-family: var(--family-dm);
+      display: block;
+      @media (max-width: 1024px) {
+        display: none;
+      }
+      strong {
+        &:nth-child(1) {
+          color: var(--text-805);
+          display: inline-block;
+          margin-right: 2.5rem;
+        }
+        &:nth-child(2) {
+          color: var(--text-81);
+          svg {
+            margin-right: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}

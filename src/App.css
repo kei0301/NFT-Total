@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.family_dm {
+  font-family: "DM Sans", sans-serif;
+}
+
+.family_poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  font-size: 12px;
+  --text-100: #921100;
+  --text-51: #374151;
+  --text-white: #fff;
+  --text-23: #1d1b23;
+  --text-900: #693900;
+  --text-13: #321513;
+  --text-74: #fab674;
+  --text-38: #9e6138;
+  --text-b8: #b8b8b8;
+  --text-805: #FDB805;
+  --text-81: #10B981;
+  --family-dm: "DM Sans", sans-serif;
+  --family-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: url("./images/bg_img.png") center top/cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2.title {
+  font-size: 2.8rem;
+  color: var(--text-900);
+  margin-bottom: 1.6rem;
+}
+
+h4.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-900);
+  margin-bottom: 1.2rem;
+}
+
+.header_container {
+  max-width: 915px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section_container {
+  max-width: 782px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn_connect_wallet {
+  background: -webkit-gradient(linear, left top, right top, color-stop(-4.51%, #fab674), color-stop(107.64%, #9e6138));
+  background: linear-gradient(90deg, #fab674 -4.51%, #9e6138 107.64%);
+  -webkit-box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+          box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  font-size: 0.787rem;
+  width: 100%;
+  min-height: 2.3rem;
+  cursor: pointer;
+  display: block;
+}
+
+.box_stake {
+  border: blueviolet 1px solid;
+  justify-content: center;
+}
+.no_line {
+  text-decoration-line: none;
+}
+
+.cursor_hand {
+  cursor: pointer;
+}
+/*# sourceMappingURL=App.css.map */

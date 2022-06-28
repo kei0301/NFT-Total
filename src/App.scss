@@ -1,0 +1,102 @@
+// ...........................Global Settings ..........................
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+// font family
+.family_dm {
+  font-family: "DM Sans", sans-serif;
+}
+.family_poppins {
+  font-family: "Poppins", sans-serif;
+}
+// font family .. End
+:root {
+  font-size: 10px;
+  --text-100: #921100;
+  --text-51: #374151;
+  --text-white: #fff;
+  --text-23: #1d1b23;
+  --text-900: #693900;
+  --text-13: #321513;
+  --text-74: #fab674;
+  --text-38: #9e6138;
+  --text-b8: #b8b8b8;
+  --text-805: #FDB805;
+  --text-81: #10B981;
+
+  // font family variable
+  --family-dm: "DM Sans", sans-serif;
+  --family-poppins: "Poppins", sans-serif;
+}
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: url("./images/bg_img.png") center top/cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+// ...........................Global Settings ..........................End
+
+// ...................Global Default Tag Styling.............
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  &.title {
+    font-size: 2.8rem;
+    color: var(--text-900);
+    margin-bottom: 1.6rem;
+  }
+}
+h4 {
+  &.title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-900);
+    margin-bottom: 1.2rem;
+  }
+}
+// ...................Global Default Tag Styling.............End
+
+// section_container .................Section Styling .................
+.header_container {
+  max-width: 915px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.section_container {
+  max-width: 782px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+// section_container .................Section Styling .................End
+
+// ...........................Button Styling .......................
+.btn_connect_wallet {
+  background: linear-gradient(90deg, #fab674 -4.51%, #9e6138 107.64%);
+  box-shadow: 0px 4px 10px rgba(201, 148, 12, 0.1);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--text-white);
+  font-size: 0.787rem;
+  width: 100%;
+  min-height: 2.3rem;
+  cursor: pointer;
+  display: block;
+}
+
+// ...........................Button Styling .......................End
